@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.demo.demoflow_datastore";
+option java_multiple_files = true;
+
+message UserPreferences {
+
+    string name = 1;
+    string picture = 2;
+    string country = 3;
+
+}
